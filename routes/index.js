@@ -1,9 +1,12 @@
-var express = require('express');
-var router = express.Router();
+const {Router} = require('express');
+const router = Router();
+const transactions = require('../models/transactions');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+
+
+router.get('/', function (req, res) {
+  transactions.getBalance(res, "1");
 });
 
 module.exports = router;
+
