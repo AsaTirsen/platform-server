@@ -7,7 +7,6 @@ let secret = envVars.secret;
 
 const Login = {
     checkLogin: function(res, body) {
-        console.log(body);
         const email = body.email;
         const password = body.password;
 
@@ -86,6 +85,25 @@ const Login = {
                 });
             });
     },
+    getUserName: function (res, id) {
+        let sql = `SELECT email FROM users WHERE id= ?`;
+
+        db.all(
+            sql, id,
+            function (err, rows) {
+                if (err) {
+                    res.status(500).json({
+                        errors: {
+                            status: 500,
+                            source: "/login",
+                            title: "No name found",
+                            detail: err.message
+                        }
+                    });
+                }
+                res.json({ data: rows });
+            });
+    }
 };
 
 module.exports = Login;

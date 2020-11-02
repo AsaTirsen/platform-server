@@ -1,7 +1,7 @@
 const express = require("express");
 const morgan = require('morgan');
 const cors = require('cors');
-const bodyParser = require("body-parser");
+//const bodyParser = require("body-parser");
 const index = require('./routes/index');
 const register = require('./routes/register');
 const login = require('./routes/login');
@@ -20,8 +20,7 @@ app.use('/', index);
 app.use('/register', register);
 app.use('/login', login);
 
-app.use((req, res, next) => {
-  next();
+app.use((req, res) => {
 });
 
 
@@ -32,8 +31,8 @@ if (process.env.NODE_ENV !== 'test') {
   app.use(morgan('combined')); // 'combined' outputs the Apache style LOGs
 }
 
-app.use(bodyParser.json()); // for parsing application/json
-app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
+// app.use(bodyParser.json()); // for parsing application/json
+// app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
 
 
@@ -51,6 +50,6 @@ app.use((req, res, next) => {
   err.status = 404;
   next(err);
 });
-module.exports = app;
+module.exports = server;
 
 

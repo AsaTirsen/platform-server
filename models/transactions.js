@@ -2,11 +2,33 @@
 const db = require("../db/database.js");
 
 const transactions = {
+    deposit: function (res, body) {
+        db.run("INSERT INTO transactions (user, cash, units, unit_price, type) VALUES (?, ?, ?, ?, ?)",
+            body.user,
+            body.amount,
+            0,
+            0,
+            body.type,
+            function (err) {
+                if (err) {
+                    return res.status(500).json({
+                        errors: {
+                            status: 500,
+                            source: "POST /deposit",
+                            title: "No deposit",
+                            detail: err.message
+                        }
+                    });
+                }
+                res.json({data: []});
+            });
+    },
+
     getBalance: function(res) {
-        let sql = `SELECT user_balance FROM transactions WHERE curr_user = ?`;
+        let sql = ``;
 
         db.all(
-            sql, curr_user,
+            sql,
             function (err, rows) {
                 if (err) {
                     res.status(500).json({

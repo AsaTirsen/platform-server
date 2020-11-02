@@ -8,16 +8,12 @@ CREATE TABLE IF NOT EXISTS users
 
 CREATE TABLE IF NOT EXISTS transactions
 (
-    id       INTEGER PRIMARY KEY,
-    prod_cat VARCHAR(255)  NOT NULL,
-    user_balance INTEGER NULL,
-    trans_price    INTEGER       NULL,
-    amount    INTEGER       NULL,
-    total INTEGER       NULL,
-    purchase FALSE,
-    vending FALSE,
-    withdrawal FALSE,
-    deposit FALSE,
-    curr_user INTEGER NULL,
-          FOREIGN KEY(curr_user) REFERENCES users(id)
+    id   INTEGER PRIMARY KEY,
+    user INTEGER NULL,
+    cash INTEGER NULL,
+    units INTEGER NULL,
+    time DATETIME DEFAULT CURRENT_TIMESTAMP,
+    unit_price INTEGER NULL,
+    type VARCHAR(12) NOT NULL,
+          FOREIGN KEY(user) REFERENCES users(id)
 );

@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84056117-26c9-422b-bfb5-6e182a471d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/register_user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/transactions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/variables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1baaba8a-6650-4aff-98e9-3e61988ff038.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1baaba8a-6650-4aff-98e9-3e61988ff038.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/transactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/transactions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603971229240</updated>
-      <workItem from="1603971231149" duration="11190000" />
+      <workItem from="1603971231149" duration="23372000" />
     </task>
     <task id="LOCAL-00001" summary="express app just created">
       <created>1603972223935</created>
@@ -74,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603972223935</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="database and tables in place">
+      <created>1603992571188</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603992571188</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,7 +84,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="express app just created" />
-    <option name="LAST_COMMIT_MESSAGE" value="express app just created" />
+    <MESSAGE value="database and tables in place" />
+    <option name="LAST_COMMIT_MESSAGE" value="database and tables in place" />
   </component>
   <component name="WindowStateProjectService">
     <state x="68" y="298" key="#SQL_Dialects" timestamp="1603976721552">
@@ -93,22 +96,26 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1603991961462" />
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1603988096695">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1506" height="339" key="GridCell.Tab.0.bottom" timestamp="1604303452028">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1603988096695" />
-    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1603988096694">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1506" height="339" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1604303452028" />
+    <state width="1506" height="339" key="GridCell.Tab.0.center" timestamp="1604303452027">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1603988096694" />
-    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1603988096692">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1506" height="339" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1604303452027" />
+    <state width="1506" height="339" key="GridCell.Tab.0.left" timestamp="1604303452027">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1603988096692" />
-    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1603988096694">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1506" height="339" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1604303452027" />
+    <state width="1506" height="339" key="GridCell.Tab.0.right" timestamp="1604303452028">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1603988096694" />
+    <state width="1506" height="339" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1604303452028" />
     <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1603989864100">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -117,10 +124,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="205" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1603989759855" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603972226403">
+    <state width="572" height="445" key="SwitcherDM" timestamp="1604303499102">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state width="572" height="445" key="SwitcherDM/0.23.3440.1417@0.23.3440.1417" timestamp="1604303499102" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603992576270">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1603972226402" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1603992576270" />
     <state x="566" y="206" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1603991216739">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -129,5 +140,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="477" y="202" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.877@0.23.1440.877" timestamp="1603971292060" />
+    <state x="753" y="381" width="586" height="490" key="find.popup" timestamp="1604303419986">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="753" y="381" width="586" height="490" key="find.popup/0.23.3440.1417@0.23.3440.1417" timestamp="1604303419986" />
   </component>
 </project>
