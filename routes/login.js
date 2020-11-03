@@ -4,8 +4,8 @@ const login = require('../models/login');
 
 
 
-router.get('/', function(req, res, next) {
-    login.getUserName(res, req.id);
+router.get('/:id', function(req, res, next) {
+    login.getUserName(res, req.params.id);
 });
 
 router.post('/', function (req, res) {

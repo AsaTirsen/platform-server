@@ -4,9 +4,10 @@ const transactions = require('../models/transactions');
 
 
 
-router.get('/:id', function (req, res) {
-  transactions.getBalance(res, req.params.id);
+router.post('/', function (req, res) {
+    transactions.deposit(res, req.body);
 });
+
 
 module.exports = router;
 

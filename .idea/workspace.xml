@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="84056117-26c9-422b-bfb5-6e182a471d3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1baaba8a-6650-4aff-98e9-3e61988ff038.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1baaba8a-6650-4aff-98e9-3e61988ff038.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/buy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/deposit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/sell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/withdrawal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84cee9d8-9681-4c4a-a1e2-71662b87b281.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ed85cc17-83d0-4c95-b2cf-c08509bfe56f.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/transactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/transactions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,10 +66,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routes" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -60,7 +82,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603971229240</updated>
-      <workItem from="1603971231149" duration="23372000" />
+      <workItem from="1603971231149" duration="23600000" />
+      <workItem from="1604312510593" duration="15949000" />
     </task>
     <task id="LOCAL-00001" summary="express app just created">
       <created>1603972223935</created>
@@ -76,16 +99,35 @@
       <option name="project" value="LOCAL" />
       <updated>1603992571188</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="login and register in place">
+      <created>1604310110414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604310110414</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="express app just created" />
     <MESSAGE value="database and tables in place" />
-    <option name="LAST_COMMIT_MESSAGE" value="database and tables in place" />
+    <MESSAGE value="login and register in place" />
+    <option name="LAST_COMMIT_MESSAGE" value="login and register in place" />
   </component>
   <component name="WindowStateProjectService">
     <state x="68" y="298" key="#SQL_Dialects" timestamp="1603976721552">
@@ -128,10 +170,11 @@
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="572" height="445" key="SwitcherDM/0.23.3440.1417@0.23.3440.1417" timestamp="1604303499102" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603992576270">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="764" y="311" key="Vcs.Push.Dialog.v2" timestamp="1604310114104">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1603992576270" />
+    <state x="764" y="311" key="Vcs.Push.Dialog.v2/0.23.3440.1417@0.23.3440.1417" timestamp="1604310114104" />
     <state x="566" y="206" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1603991216739">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

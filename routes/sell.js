@@ -4,9 +4,11 @@ const transactions = require('../models/transactions');
 
 
 
-router.get('/:id', function (req, res) {
-  transactions.getBalance(res, req.params.id);
+router.post('/', function (req, res) {
+   console.log(req.body.items);
+    transactions.sell(res, req.body.items);
 });
+
 
 module.exports = router;
 

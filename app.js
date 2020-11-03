@@ -5,6 +5,10 @@ const cors = require('cors');
 const index = require('./routes/index');
 const register = require('./routes/register');
 const login = require('./routes/login');
+const withdrawal = require('./routes/withdrawal');
+const deposit = require('./routes/deposit');
+const buy = require('./routes/buy');
+const sell = require('./routes/sell');
 const envVars = require('./routes/variables');
 
 
@@ -19,6 +23,11 @@ app.use(express.json());
 app.use('/', index);
 app.use('/register', register);
 app.use('/login', login);
+app.use('/withdrawal', withdrawal);
+app.use('/deposit', deposit);
+app.use('/buy', buy);
+app.use('/sell', sell);
+
 
 app.use((req, res) => {
 });
