@@ -5,7 +5,7 @@ const transactions = require('../models/transactions');
 
 
 router.post('/', function (req, res) {
-    transactions.withdrawal(res, req.body);
+    transactions.withdrawal(res, req.body.items);
 });
 
 
