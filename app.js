@@ -9,10 +9,9 @@ const withdrawal = require('./routes/withdrawal');
 const deposit = require('./routes/deposit');
 const buy = require('./routes/buy');
 const sell = require('./routes/sell');
-const envVars = require('./routes/variables');
 
 
-const port = envVars.port;
+const port = 1350;
 
 console.log(port);
 const app = express();
