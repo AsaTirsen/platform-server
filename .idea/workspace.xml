@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="84056117-26c9-422b-bfb5-6e182a471d3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/deposit.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/deposit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/withdrawal.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/withdrawal.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603971229240</updated>
       <workItem from="1603971231149" duration="23600000" />
-      <workItem from="1604312510593" duration="22540000" />
+      <workItem from="1604312510593" duration="23436000" />
     </task>
     <task id="LOCAL-00001" summary="express app just created">
       <created>1603972223935</created>
@@ -104,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604420669930</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated deposit, withdrawals after funciton components">
+      <created>1604671965690</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604671965690</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +131,8 @@
     <MESSAGE value="database and tables in place" />
     <MESSAGE value="login and register in place" />
     <MESSAGE value="buy, sell, withdrawal and deposit components in place" />
-    <option name="LAST_COMMIT_MESSAGE" value="buy, sell, withdrawal and deposit components in place" />
+    <MESSAGE value="updated deposit, withdrawals after funciton components" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated deposit, withdrawals after funciton components" />
   </component>
   <component name="WindowStateProjectService">
     <state x="68" y="298" key="#SQL_Dialects" timestamp="1603976721552">
@@ -169,11 +175,11 @@
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="572" height="445" key="SwitcherDM/0.23.3440.1417@0.23.3440.1417" timestamp="1604303499102" />
-    <state x="764" y="311" key="Vcs.Push.Dialog.v2" timestamp="1604420672140">
+    <state x="764" y="311" key="Vcs.Push.Dialog.v2" timestamp="1604671968333">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1603992576270" />
-    <state x="764" y="311" key="Vcs.Push.Dialog.v2/0.23.3440.1417@0.23.3440.1417" timestamp="1604420672140" />
+    <state x="764" y="311" key="Vcs.Push.Dialog.v2/0.23.3440.1417@0.23.3440.1417" timestamp="1604671968333" />
     <state x="566" y="206" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1603991216739">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
