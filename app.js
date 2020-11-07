@@ -29,11 +29,6 @@ app.use('/buy', buy);
 app.use('/sell', sell);
 
 
-app.use((req, res) => {
-});
-
-
-
 // don't show the log when it is test
 if (process.env.NODE_ENV !== 'test') {
   // use morgan to log at command line
