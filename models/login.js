@@ -62,7 +62,7 @@ const Login = {
 
                     if (result) {
                         let payload = { email: user.email, id: user.id };
-                        let jwtToken = jwt.sign(payload, secret, { expiresIn: '1hr' });
+                        let jwtToken = jwt.sign(payload, secret, { expiresIn: '1h' });
 
                         return res.json({
                             data: {
